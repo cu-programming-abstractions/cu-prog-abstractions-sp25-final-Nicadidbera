@@ -2,7 +2,6 @@
 #include <vector>
 #include <string>
 #include "cell.h"
-
 /**
  * Finds the shortest path from start 'S' to exit 'E' in the dungeon
  * using Breadth-First Search (BFS). This is the basic pathfinding
@@ -68,7 +67,7 @@ bool canPassDoor(char door, int keyMask);
 int collectKey(char key, int keyMask);
 
 // Uncomment the line below if you want to implement the optional intermediate challenge
-// #define IMPLEMENT_OPTIONAL_FUNCTIONS
+#define IMPLEMENT_OPTIONAL_FUNCTIONS
 
 #ifdef IMPLEMENT_OPTIONAL_FUNCTIONS
 /**
